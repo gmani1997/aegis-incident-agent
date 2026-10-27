@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+.venv/
+ENV/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables & Secrets (CRITICAL: Never push API keys)
+.env
+
+# OS & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
